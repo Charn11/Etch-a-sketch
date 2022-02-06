@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #5f9ea0;
+}
+
+#gridContainer{
+    display: grid;
+    height: 75vh;
+    width: 75vh;
+    margin: auto;
+    border: 3px solid black;
+    padding: 0px;
+    border-radius: 7px;
+    /*grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16,1fr);*/
+}
+.grids{
+    border: solid 2px black;
+    box-sizing: border-box;
+}
+/*.grids:hover{
+    background-color: brown
+}*/
+
+button{
+    margin-top: 10px;
+    justify-content: center;
+    padding: 10px;
+    width: 100px;
+    align-self: center;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+button:hover{
+    background-color: greenyellow;
+}
